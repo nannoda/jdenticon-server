@@ -1,2 +1,9 @@
 services:
-  jdenticon-server
+  jdenticon-server:
+    container_name: jdenticon-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 16043:16043
