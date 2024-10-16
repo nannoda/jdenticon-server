@@ -2,7 +2,7 @@ services:
   jdenticon-server:
     container_name: jdenticon-server
     build:
-      context: .
+      context: https://github.com/nannoda/jdenticon-server.git
       dockerfile: Dockerfile
     restart: always
     ports:
