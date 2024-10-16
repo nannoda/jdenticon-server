@@ -1,0 +1,16 @@
+{
+  "name": "jdenticon-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Jdenticon server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jdenticon": "^3.3.0"
+  }
+}
