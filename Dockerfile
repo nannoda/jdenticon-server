@@ -1,4 +1,4 @@
-FROM oven/bun:latest
+FROM oven/bun:alpine
 
 COPY package.json ./
 COPY package-lock.json ./
