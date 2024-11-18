@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_NAME: jdenticon-server # Replace with your Docker image name
+  IMAGE_NAME: nannoda/jdenticon-server # Replace with your Docker image name
 
 jobs:
   build:
