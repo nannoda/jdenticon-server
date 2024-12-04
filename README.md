@@ -51,4 +51,6 @@ The server listens for POST requests at the root URL (/). The request body must 
 - size (number): The size (in pixels) of the generated identicon.
 - type (string): The type of image to generate (png or svg).
 #### Example Request
+```bash
 curl -X POST http://localhost:16043 -d '{"value": "avatar123", "size": 240, "type": "png"}' -H "Content-Type: application/json" --output avatar.png
+```
